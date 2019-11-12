@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Welcome to My Vidly App</h1>
+<br>
+<p>This app tell us about the <b>Movies</b> and their daily rental rates.</p>
+<br>
+<h4>Visit my movies app here : <a href="{% url 'movies_index' %}">Movies</a></h4>
+<h4>You can also use its API, click here : <a href="http://127.0.0.1:8000/api/movies/">API</a></h4>
+{% endblock  %}
