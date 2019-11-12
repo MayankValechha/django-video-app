@@ -1,0 +1,7 @@
+Django==2.1
+django-tastypie==0.14.2
+lazy-object-proxy==1.4.3
+pylint==2.4.3
+pylint-django==2.0.12
+pylint-plugin-utils==0.6
+python-dateutil==2.8.1
